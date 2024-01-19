@@ -1,0 +1,159 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .task{
+  height:70px;
+  width:50%;
+  display:flex;
+  justify-content: center;
+  background-color: red;
+  margin:30px auto;
+  align-items: center;
+  gap:30px;
+}
+.mainTodo{
+  height:fit-content;
+  width:90%;
+  border:1px solid red;
+  margin:20px auto;
+}
+.val{
+  width:50%;
+  height:fit-content;
+  overflow: scroll;
+}
+.val {
+  width: 50%;
+  overflow: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  /* scrollbar-color: transparent transparent; For Firefox */
+  /* Hide scrollbar for other browsers */
+  /* &::-webkit-scrollbar {
+    width: 0px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+} */ 
+.mainTodo{
+  height:fit-content;
+  width:90%;
+  
+  margin:20px auto;
+  background: #bfdddf;
+  padding:20px;
+
+
+}
+.task{
+  height:fit-content;
+  width:100%;
+ 
+
+}
+.val{
+  height:fit-content;
+  width:100%;
+  text-align: center;
+}
+.val p {
+  max-width: 100%; /* or specify a specific width */
+  word-wrap: break-word; /* to allow wrapping for long words */
+}
+.btnGroup{
+  height:30px;
+  width:100%;
+  
+  display:flex;
+  gap:20px;
+  justify-content: center;
+}
+.remove{
+  background:red;
+  border-radius: 10%;
+  color:white;
+}
+.edit{
+  color:white;
+  background:green;
+  border-radius: 10%;
+}
+.add{
+  background-color: orange;
+  border:none;
+  color:white;
+  width:70px;
+  height:30px;
+  border-radius: 10%;
+}
+.inputDiv{
+  height:fit-content;
+  width:100%;
+  
+  display:flex;
+  justify-content: center;
+  gap:20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .mainTodo{
+    height:fit-content;
+    width:50%;
+    
+    margin:20px auto;
+    background: #1c595d;
+    padding:20px;
+  
+  
+  }
+
+}
+@media screen and (min-width: 1024px) and (max-width: 3000px){
+  .mainTodo{
+    height:fit-content;
+    width:50%;
+    
+    margin:20px auto;
+    background: #1c595d;
+    padding:20px;
+    color:white;
+  
+  
+  }
+
+}
